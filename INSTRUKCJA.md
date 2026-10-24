@@ -13,13 +13,13 @@ Wymagania: Windows 10 lub 11 (64-bit).
 Program zapyta o Twoje imię – pokazuje ono, kto dopisał wydatek. Od razu utworzy też podstawowe kategorie (żywność, dom i media, transport…, wynagrodzenie, przekazanie na oszczędności). Możesz je potem zmieniać w **Ustawieniach**.
 
 ## 3. Miesiąc – wpisy i podsumowanie
-- **Dodaj wpis** – wybierz rodzaj (**Wydatek**, **Przychód**, **Oszczędzanie**), wpisz kwotę, datę, kategorię, osobę i opcjonalnie opis. **Zapisz** (albo Enter). „Zapisz i dodaj kolejny” zostawia okno otwarte z tą samą kategorią.
+- **Dodaj wpis** – wybierz rodzaj (**Wydatek**, **Przychód**, **Oszczędzanie**), wpisz kwotę, datę, kategorię, opcjonalnie podkategorię (np. Żywność › Pieczywo), osobę i opis. **Zapisz** (albo Enter). „Zapisz i dodaj kolejny” zostawia okno otwarte z tą samą kategorią.
 - Kliknięcie wpisu na liście otwiera go do zmiany albo usunięcia.
 - Kafle na górze:
   - **Bilans otwarcia** – wynik wszystkich wcześniejszych miesięcy (nadwyżka albo niedobór przechodzi na kolejny miesiąc),
   - **Przychody**, **Wydatki**, **Na oszczędności**,
   - **Do dyspozycji** = bilans otwarcia + przychody − wydatki − oszczędności. Przekazanie na oszczędności nie jest wydatkiem, ale zmniejsza kwotę do dyspozycji.
-- Filtry (rodzaj, kategoria, osoba) zawężają listę wpisów; sumy miesiąca się nie zmieniają. Kliknięcie kategorii w panelu „Według kategorii” filtruje listę.
+- Filtry (rodzaj, kategoria, podkategoria, osoba) zawężają listę wpisów; sumy miesiąca się nie zmieniają. Kliknięcie kategorii w panelu „Według kategorii” filtruje listę, a strzałka ▸ obok kategorii rozwija jej podkategorie z kwotami.
 - Strzałki ‹ › przy nazwie miesiąca przełączają miesiące.
 
 ## 4. Plan – limity kategorii
@@ -62,6 +62,7 @@ Nie usuwaj i nie zmieniaj ręcznie plików we wspólnym folderze.
 
 ## 7. Ustawienia
 - **Kategorie** – dodawanie, zmiana nazwy i rodzaju, usuwanie (usunięta kategoria zostaje w dawnych wpisach).
+- **Podkategorie** – kliknij kategorię, żeby rozwinąć jej podkategorie; „+ podkategoria” dodaje nową, „Zmień” pozwala zmienić nazwę albo usunąć (usunięta zostaje w dawnych wpisach). Program ma gotowe propozycje dla kategorii startowych – zbędne po prostu usuń. Podkategorii nie przenosi się między kategoriami: utwórz nową w innej kategorii.
 - **Osoby** – osoby z innych komputerów wspólnego budżetu pojawiają się same; osobę bez własnego komputera dodasz ręcznie.
 - **O programie** – wersja i folder danych.
 
