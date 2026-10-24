@@ -38,6 +38,17 @@ Na zakładce **Stałe opłaty** dodaj czynsz, media, abonamenty: kwotę, kategor
 
 Wskazówka: przy pierwszym wpisywaniu opłat ustaw miesiąc pierwszej płatności od bieżącego miesiąca – inaczej starsze terminy pokażą się jako zaległe.
 
+## 5a. Porównania – wykresy
+Na zakładce **Porównania** wybierz **Miesiące**, **Kwartały** albo **Lata** i strzałkami okres, który chcesz obejrzeć:
+- **Okres po okresie** – przychody, wydatki i oszczędności w kolejnych okresach.
+- **Kategorie** – wybrany okres obok poprzedniego, tego samego okresu rok wcześniej albo średniej z 3 poprzednich; przy każdej kategorii zmiana w %. W polu „Pokaż” wybierz kategorię, żeby porównać jej podkategorie.
+- **Trend** – jak zmieniały się wydatki jednej kategorii albo podkategorii.
+- **Plan i wykonanie** – wydatki na tle limitu (kreska) w kolejnych okresach.
+
+Najedź na słupek (albo go dotknij), żeby zobaczyć kwoty; „Tabela” pod wykresem pokazuje te same dane w liczbach.
+
+Kategorie i podkategorie są w całym programie ułożone alfabetycznie; na liście wpisów – w obrębie każdego dnia.
+
 ## 6. Wspólny budżet (kilka osób, kilka komputerów)
 Każdy komputer pracuje na własnej kopii budżetu i wymienia zmiany przez **wspólny folder**. Program działa także wtedy, gdy folder jest chwilowo niedostępny – zmiany poczekają.
 
