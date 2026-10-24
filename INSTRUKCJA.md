@@ -26,7 +26,8 @@ Program zapyta o Twoje imię – pokazuje ono, kto dopisał wydatek. Od razu utw
 Na zakładce **Plan** kliknij kategorię wydatków albo oszczędzania i wpisz limit na miesiąc.
 - Limit obowiązuje **od miesiąca, w którym go ustawisz**, także w kolejnych miesiącach – aż do następnej zmiany. Wcześniejsze miesiące się nie zmieniają.
 - 0 albo puste pole = bez limitu. Zmianę z danego miesiąca możesz usunąć – wtedy wraca poprzedni limit.
-- Na zakładce **Miesiąc** zobaczysz „Plan wydatków: wydano X z Y zł”, a przy kategorii pasek: zielony, **żółty od 80%**, **czerwony po przekroczeniu**.
+- **Podkategorie:** strzałka ▸ przy kategorii pokazuje jej podkategorie – każdej możesz ustawić limit tak samo. Gdy choć jedna podkategoria ma limit, **limit kategorii jest sumą limitów podkategorii** (przy kategorii widać „suma podkategorii”) – zmieniasz go, zmieniając limity podkategorii. Wydatki bez podkategorii liczą się tylko do limitu kategorii.
+- Na zakładce **Miesiąc** zobaczysz „Plan wydatków: wydano X z Y zł”, a przy kategorii (i po rozwinięciu – przy podkategorii z limitem) pasek: zielony, **żółty od 80%**, **czerwony po przekroczeniu**.
 
 ## 5. Stałe opłaty
 Na zakładce **Stałe opłaty** dodaj czynsz, media, abonamenty: kwotę, kategorię, jak często (co miesiąc, co 2/3/4 miesiące, co pół roku, co rok), dzień płatności i miesiąc pierwszej płatności (opcjonalnie ostatniej i osobę, która płaci). Dzień 29–31 w krótszym miesiącu oznacza ostatni dzień miesiąca.
@@ -73,10 +74,16 @@ Nie usuwaj i nie zmieniaj ręcznie plików we wspólnym folderze.
 - Przy wspólnym budżecie kopią są też dane na pozostałych komputerach i we wspólnym folderze.
 
 ## 9. Aktualizacje
-Program raz dziennie sprawdza, czy jest nowa wersja (pyta tylko o numer wersji – bez żadnych danych). Gdy jest, w nagłówku pojawi się przycisk **„Dostępna wersja … – pobierz”** – pobierz instalator i uruchom go; dane zostają. Ręcznie: **Pomoc → Sprawdź aktualizacje**.
+Przy każdym uruchomieniu program sprawdza, czy jest nowa wersja (pyta tylko o numer wersji – bez żadnych danych). Gdy jest, pokaże okno **„Aktualizacja programu”**:
+- **Pobierz i zainstaluj** – program pobierze instalator (widać postęp), sprawdzi jego sumę kontrolną, wyśle niewysłane zmiany wspólnego budżetu, zamknie się, zainstaluje nową wersję i uruchomi się ponownie. Dane zostają.
+- **Później** – w nagłówku zostaje przycisk „Dostępna wersja … – zainstaluj”.
+- W trakcie pobierania możesz kliknąć **Ukryj** i dalej pracować – po pobraniu program zapyta, czy zainstalować teraz.
+- Gdy coś pójdzie nie tak, użyj „Spróbuj ponownie” albo „Pobierz ze strony” (instalator z [Wydań](https://github.com/Kargadann/ochmistrz-wydania/releases/latest)).
+
+Ręcznie: **Pomoc → Sprawdź aktualizacje**. Wersje 1.1.0 i starsze nie umieją się same zaktualizować – pobierz z nich instalator przyciskiem w nagłówku.
 
 ## 10. Odinstalowanie
 Ustawienia Windows → Aplikacje → Ochmistrz → Odinstaluj. Dane w `%APPDATA%\Ochmistrz` zostają – usuń ten folder ręcznie, jeśli nie są już potrzebne.
 
 ## Prywatność
-Twoje dane zostają **na Twoim komputerze** i – jeśli go ustawisz – we wspólnym folderze, który wskażesz. Program nie wysyła ich nigdzie. Jedyne połączenie z internetem to raz dziennie pytanie o numer najnowszej wersji.
+Twoje dane zostają **na Twoim komputerze** i – jeśli go ustawisz – we wspólnym folderze, który wskażesz. Program nie wysyła ich nigdzie. Jedyne połączenia z internetem to pytanie o numer najnowszej wersji przy uruchomieniu i – za Twoją zgodą – pobranie instalatora nowej wersji.
