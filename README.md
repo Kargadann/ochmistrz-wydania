@@ -15,7 +15,7 @@ Przy pierwszym uruchomieniu instalatora Windows może pokazać okno „System Wi
 [INSTRUKCJA.md](INSTRUKCJA.md) – instalacja, wpisy i podsumowanie miesiąca, plan, stałe opłaty, wspólny budżet, kopie zapasowe i aktualizacje.
 
 ## Prywatność
-Twoje dane zostają **na Twoim komputerze** (`%APPDATA%\Ochmistrz`) i – jeśli go ustawisz – we wspólnym folderze, który wskażesz. Program nie wysyła ich nigdzie. Raz dziennie pyta tę stronę o numer najnowszej wersji – bez żadnych danych.
+Twoje dane zostają **na Twoim komputerze** (`%APPDATA%\Ochmistrz`) i – jeśli go ustawisz – we wspólnym folderze, który wskażesz. Program nie wysyła ich nigdzie. Przy uruchomieniu pyta tę stronę o numer najnowszej wersji – bez żadnych danych – i za Twoją zgodą pobiera oraz instaluje nową wersję (od 1.2.0).
 
 ## Wymagania
 Windows 10 lub 11 (64-bit).
